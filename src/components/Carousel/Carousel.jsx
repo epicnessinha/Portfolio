@@ -24,7 +24,7 @@ const Carousel = () => {
             <p>Project 2 description.</p>
           </div>
         </div>
-        {/* Add more carousel-items for your projects */}
+        {/* Add more carousel-items for more projects */}
       </div>
       <button
         className="carousel-control-prev"
