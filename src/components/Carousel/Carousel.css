@@ -1,0 +1,22 @@
+.projects-section .carousel {
+    position: relative;
+  }
+  
+  .projects-section .carousel-item {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+  }
+  
+  .projects-section .carousel-item.active {
+    display: flex;
+  }
+  
+  .projects-section .carousel-item img {
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+  }
+  
