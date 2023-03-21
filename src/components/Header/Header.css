@@ -1,27 +1,68 @@
+@font-face {
+  font-family: 'Real Ohio';
+  src: url('../../fonts/Real Ohio.ttf') format('truetype');
+}
+
 /* Masthead styles */
 .masthead {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.3) 0%,
-        rgba(0, 0, 0, 0.7) 75%,
-        #000 100%
-      ),
-      url("/Users/vanessa/Desktop/my-portfolio/public/Nessa.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    ),
+    url("../../assets/Nessa.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+}
+
+.masthead h1 {
+  font-family: 'Real Ohio';
+  line-height: 2.5rem;
+  background: linear-gradient(rgb(242, 248, 249), rgba(69, 115, 130, 0.463));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text; 
+}
+
+.masthead p {
+  max-width: 25rem;
+  font-size: 2.3rem;
+  margin: 0 auto;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(164, 162, 162) !important;
+}
+
+@media (min-width: 768px) {
+  .masthead h1, .masthead .h1 {
+    font-size: 4rem; /* Adjust this value to change the font size */
+    line-height: 4rem;
+    
   }
-  
-  .masthead h1 {
-    font-size: 4rem;
+}
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+    
   }
-  
-  .masthead p {
-    font-size: 1.5rem;
+  .masthead h1, .masthead .h1 {
+    font-size: 12.5rem; /* Adjust this value to change the font size */
+    line-height: 14.5rem;
+    letter-spacing: 0.5rem;
   }
+  .masthead h2, .masthead .h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+    
+   
+  }
+}
