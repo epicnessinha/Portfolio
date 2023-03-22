@@ -1,4 +1,7 @@
 import React from 'react';
+import homepagedraft from "../../assets/homepagedraft.png"
+import Nessa5 from '../../assets/Nessa5.png';
+import Petland from "../../assets/Petland.png";
 import "./Carousel.css"
 
 
@@ -11,19 +14,26 @@ const Carousel = () => {
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="/assets/Petland.png" className="w-100" alt="Project 1" />
+          <img src={homepagedraft} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             <h5>Project 1</h5>
             <p>Project 1 description.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="/assets/Nessa5.png" className="w-100" alt="Project 2" />
+          <img src={Nessa5} className="w-100" alt="Project 2" />
           <div className="carousel-caption d-none d-md-block">
             <h5>Project 2</h5>
             <p>Project 2 description.</p>
           </div>
         </div>
+        <div className="carousel-item">
+          <img src={Petland} className="w-100" alt="Project 2" />
+          <div className="carousel-caption d-none d-md-block">
+            <h5>Project 3</h5>
+            <p>Project 3 description.</p>
+          </div>
+          </div>
         {/* Add more carousel-items for more projects */}
       </div>
       <button
