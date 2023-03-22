@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Real Ohio';
-  src: url('../../fonts/Real Ohio.ttf') format('truetype');
+  font-family: "Real Ohio";
+  src: url("../../fonts/Real Ohio.ttf") format("truetype");
 }
 
 /* Masthead styles */
@@ -25,12 +25,12 @@
 }
 
 .masthead h1 {
-  font-family: 'Real Ohio';
+  font-family: "Real Ohio";
   line-height: 2.5rem;
   background: linear-gradient(rgb(242, 248, 249), rgba(69, 115, 130, 0.463));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-          background-clip: text; 
+  background-clip: text;
 }
 
 .masthead p {
@@ -41,28 +41,51 @@
   color: rgb(164, 162, 162) !important;
 }
 
+/* media query for mobile screens */
+@media (max-width: 767px) {
+  .masthead h1 {
+    font-size: 3.8rem;
+    line-height: 4.5rem;
+  }
+  .masthead p {
+    font-size: 1rem;
+  }
+}
+
 @media (min-width: 768px) {
-  .masthead h1, .masthead .h1 {
-    font-size: 4rem; /* Adjust this value to change the font size */
-    line-height: 4rem;
-    
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+  .masthead p {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
     padding: 0;
-    
   }
-  .masthead h1, .masthead .h1 {
-    font-size: 11.5rem; /* Adjust this value to change the font size */
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 11.5rem;
     line-height: 14.5rem;
     letter-spacing: 0.5rem;
   }
-  .masthead h2, .masthead .h2 {
+  .masthead h2,
+  .masthead .h2 {
     max-width: 30rem;
     font-size: 1.25rem;
-    
-   
+  }
+}
+/* media query for 4K screens */
+@media (min-width: 3840px) {
+  .masthead h1 {
+    font-size: 13.9rem;
+    line-height: 24rem;
+  }
+  .masthead p {
+    font-size: 2.4rem;
   }
 }

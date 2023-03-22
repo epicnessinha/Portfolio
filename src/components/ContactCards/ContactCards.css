@@ -1,0 +1,32 @@
+.contact-section {
+    padding: 4rem 0;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    transition: all 0.3s;
+  }
+  
+  .card-body:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hr {
+    width: 3.25rem;
+    height: 1px;
+    margin: 1.25rem auto;
+    background-color: #dee2e6;
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text-primary {
+    color: #007bff;
+  }
+  
