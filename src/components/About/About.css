@@ -1,0 +1,16 @@
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .about-section .container {
+    width: 50%;
+  }
+  
+  .about-section img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+  }
+  
