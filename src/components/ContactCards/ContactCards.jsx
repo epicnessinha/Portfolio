@@ -3,7 +3,7 @@ import './ContactCards.css';
 
 const ContactCards = () => {
   return (
-    <section className="contact-section">
+    <section id="contact" className="contact-section">
       <div className="container">
         <div className="row">
           <div className="col-md-4 mb-3 mb-md-0">
