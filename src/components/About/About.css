@@ -1,16 +1,35 @@
-.about-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .about-section .container {
-    width: 50%;
-  }
-  
-  .about-section img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-  }
-  
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+.image-container {
+  flex-basis: 45%;
+  margin-right: 20px;
+}
+
+.image-container img {
+  max-width: 80%;
+  height: auto;
+}
+
+.text-container {
+  flex-basis: 65%;
+  padding-right: 7%;
+}
+
+.text-container h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  text-align: justify;
+}
