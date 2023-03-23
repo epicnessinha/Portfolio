@@ -1,5 +1,6 @@
 .projects-section .carousel {
   position: relative;
+ 
 }
 
 .projects-section .carousel-item {
@@ -8,6 +9,7 @@
   align-items: center;
   position: relative;
   height: 100%;
+  
 }
 
 .projects-section .carousel-item.active {
