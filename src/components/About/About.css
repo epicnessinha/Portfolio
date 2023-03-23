@@ -4,8 +4,9 @@
   align-items: center;
   justify-content: center;
   margin: 50px;
-  margin-top: 200px;
-  margin-bottom: 150px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  color: rgb(215, 217, 218);
 }
 
 .image-container {

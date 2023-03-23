@@ -3,7 +3,7 @@ import './ContactCards.css';
 
 const ContactCards = () => {
   return (
-    <><h2>Contacts</h2>
+    <><h2 className='contacts'>Contacts</h2>
     <section id="contact" className="contact-section">
       <div className="container">
         <div className="row">
@@ -32,7 +32,7 @@ const ContactCards = () => {
           <div className="col-md-4 mb-3 mb-md-0">
             <div className="card py-4 h-100">
               <div className="card-body text-center">
-                <i className="fab fa-github"></i>
+                <i className="fab fa-github" style={{ color: 'black' }}></i>
                 <h4 className="m-0">Github</h4>
                 <hr className="my-4" />
                 <div className="small text-black-50">

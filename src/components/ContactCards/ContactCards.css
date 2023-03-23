@@ -25,6 +25,7 @@
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color: black;
 }
 
 .card-body hr {
@@ -34,4 +35,11 @@
 
 .small {
   font-size: 0.9rem;
+}
+
+.contacts{
+  color: rgb(215, 217, 218);
+  margin-top: 300px;
+  text-align: left;
+  margin-left: 200px;
 }
