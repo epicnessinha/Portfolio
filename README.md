@@ -2,12 +2,12 @@
 #  ⚠️ Currently under development! ⚠️
 
 
-Personal portfolio with all of my works.
+Personal portfolio with my works.
 
 
 
 ## Visuals (Drafts)
-<img src="https://github.com/epicnessinha/Portfolio/blob/master/src/assets/homepagedraft.png?raw=true" alt="Homepage" width="60%"/> 
+<img src="https://github.com/epicnessinha/Portfolio/blob/master/src/assets/home.png?raw=true" alt="Homepage" width="70%"/> 
 
 ## Instructions to use:
 
