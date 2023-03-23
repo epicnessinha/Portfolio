@@ -1,5 +1,5 @@
 import React from 'react';
-import homepagedraft from "../../assets/homepagedraft.png"
+import homepage from "../../assets/home.png";
 import Petland from "../../assets/Petland.png";
 import geekshubstore from "../../assets/geekshubstore.png";
 import haute from "../../assets/haute.png";
@@ -21,7 +21,7 @@ const Carousel = () => {
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={homepagedraft} className="w-100" alt="Project 1" />
+          <img src={homepage} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>Portfolio</h5>
             <p>Project 1 description.</p> */}
