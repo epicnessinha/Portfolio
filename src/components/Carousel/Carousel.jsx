@@ -41,56 +41,56 @@ const Carousel = () => {
             <p>Project 3 description.</p> */}
           </div>
           </div>
-          <div className="carousel-item active">
+          <div className="carousel-item">
           <img src={geekshubstore} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>GeeksHub Store</h5>
             <p>Project 1 description.</p> */}
           </div>
         </div>
-        <div className="carousel-item active">
+        <div className="carousel-item">
           <img src={music} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>Music Player</h5>
             <p>Project 1 description.</p> */}
           </div>
         </div>
-        <div className="carousel-item active">
+        <div className="carousel-item">
           <img src={todolist} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>To Do List</h5>
             <p>Project 1 description.</p> */}
           </div>
         </div>
-        {/* <div className="carousel-item active">
+        {/* <div className="carousel-item">
           <img src={MyCartel} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             <h5>My Cartel</h5>
             <p>Project 1 description.</p>
           </div>
         </div> */}
-        <div className="carousel-item active">
+        <div className="carousel-item">
           <img src={movieland} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>Movieland</h5>
             <p>Project 1 description.</p> */}
           </div>
         </div>
-        <div className="carousel-item active">
+        <div className="carousel-item">
           <img src={SimsChar} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>Sims Academy</h5>
             <p>Project 1 description.</p> */}
           </div>
         </div>
-        <div className="carousel-item active">
+        <div className="carousel-item">
           <img src={nintendo} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>Nintendo CSS</h5>
             <p>Project 1 description.</p> */}
           </div>
         </div>
-        <div className="carousel-item active">
+        <div className="carousel-item">
           <img src={Sims} className="w-100" alt="Project 1" />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>Project 1</h5>
