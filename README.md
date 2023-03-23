@@ -7,7 +7,7 @@ Personal portfolio with my works.
 
 
 ## Visuals (Drafts)
-<img src="https://github.com/epicnessinha/Portfolio/blob/master/src/assets/home.png?raw=true" alt="Homepage" width="70%"/> 
+<img src="https://github.com/epicnessinha/Portfolio/blob/master/src/assets/home.png?raw=true" alt="Homepage" width="80%"/> 
 
 ## Instructions to use:
 
