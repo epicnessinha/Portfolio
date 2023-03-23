@@ -1,7 +1,7 @@
 .about-section {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   
   .about-section .container {
@@ -9,8 +9,8 @@
   }
   
   .about-section img {
-    width: 40%;
+    width: 100%;
+    max-width: 400px;
     height: auto;
-    object-fit: cover;
   }
   
