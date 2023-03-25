@@ -2,7 +2,7 @@
 #  ⚠️ Currently under development! ⚠️
 
 
-Personal portfolio with my works.
+Personal portfolio - `https://vanessaferreira-portfolio.netlify.app/` 
 
 
 
