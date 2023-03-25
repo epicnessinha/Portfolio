@@ -36,3 +36,8 @@
 .navbar-dark .navbar-nav .navbar-brand .nav-link:hover,.navbar-dark .navbar-brand:hover {
   color: rgb(36, 175, 203);
 }
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+  cursor: pointer;
+}

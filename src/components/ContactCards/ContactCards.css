@@ -1,24 +1,21 @@
 .contact-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-}
-
-.card {
-  flex-basis: calc(33.33% - 20px);
-  margin: 1 10px;
+  
+  
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: black;
 
 }
 
 .card-body i {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.2rem;  
+  
 }
 
 .card-body h4 {
@@ -31,6 +28,7 @@
 .card-body hr {
   width: 80%;
   margin: 1rem 0;
+  
 }
 
 .small {
@@ -38,8 +36,11 @@
 }
 
 .contacts{
-  color: rgb(215, 217, 218);
+  color: rgba(225, 242, 244, 0.833);
   margin-top: 300px;
   text-align: left;
-  margin-left: 200px;
+  margin-left: 150px;
+  font-size: 4em;
+  font-family: "Real Ohio";
+  letter-spacing: 6px;
 }
