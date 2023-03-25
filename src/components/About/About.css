@@ -10,7 +10,7 @@
   justify-content: center;
   margin: 50px;
   margin-top: 300px;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
   color: rgb(215, 217, 218);
 }
 
@@ -23,7 +23,7 @@
 .image-container img {
   max-width: 85%;
   height: auto;
-  opacity: 0.7;
+  opacity: 0.9;
   border-radius: 50%;
 }
 
