@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Real Ohio";
+  src: url("../../fonts/Real Ohio.ttf") format("truetype");
+}
+
 .about-me-container {
   display: flex;
   flex-direction: row;
@@ -10,27 +15,35 @@
 }
 
 .image-container {
-  flex-basis: 45%;
-  margin-right: 20px;
+  flex-basis: 40%;
+  margin-right: 15px;
+  margin-top: 120px;
 }
 
 .image-container img {
-  max-width: 80%;
+  max-width: 85%;
   height: auto;
+  opacity: 0.7;
+  border-radius: 50%;
 }
 
 .text-container {
-  flex-basis: 65%;
+  flex-basis: 75%;
   padding-right: 7%;
 }
 
 .text-container h2 {
-  font-size: 2em;
+  font-size: 4em;
   margin-bottom: 10px;
+  font-family: "Real Ohio";
+  letter-spacing: 6px;
+  color: rgba(225, 242, 244, 0.833);
 }
 
 .text-container p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.7;
   text-align: justify;
+  font-family: Optima;
+  color: rgba(207, 228, 231, 0.732);
 }

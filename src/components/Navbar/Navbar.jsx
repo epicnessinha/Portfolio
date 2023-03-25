@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="contact" smooth={true} duration={1000}>
-                Contact
+                Contacts
               </Link>
             </li>
             <li className="nav-item">
