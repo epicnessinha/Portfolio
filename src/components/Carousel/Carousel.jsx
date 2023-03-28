@@ -11,6 +11,20 @@ import SimsChar from "../../assets/simschar.png";
 import todolist from "../../assets/todolist.png";
 import "./Carousel.css";
 
+const carouselImages = [
+  { src: homepage, alt: "Project 1" },
+  { src: haute, alt: "Project 2" },
+  { src: Petland, alt: "Project 3" },
+  { src: geekshubstore, alt: "Project 4" },
+  { src: music, alt: "Project 5" },
+  { src: todolist, alt: "Project 6" },
+  { src: movieland, alt: "Project 7" },
+  { src: SimsChar, alt: "Project 8" },
+  { src: nintendo, alt: "Project 9" },
+  { src: Sims, alt: "Project 10" },
+  
+];
+
 const Carousel = () => {
   return (
     <div
@@ -19,52 +33,15 @@ const Carousel = () => {
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={homepage} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        <div className="carousel-item">
-          <img src={haute} className="w-100" alt="Project 2" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        <div className="carousel-item">
-          <img src={Petland} className="w-100" alt="Project 2" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        <div className="carousel-item">
-          <img src={geekshubstore} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        <div className="carousel-item">
-          <img src={music} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        <div className="carousel-item">
-          <img src={todolist} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        {/* <div className="carousel-item">
-          <img src={MyCartel} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block">
+        {carouselImages.map((image, index) => (
+          <div
+            key={index}
+            className={`carousel-item${index === 0 ? " active" : ""}`}
+          >
+            <img src={image.src} className="w-100" alt={image.alt} />
+            <div className="carousel-caption d-none d-md-block"></div>
           </div>
-        </div> */}
-        <div className="carousel-item">
-          <img src={movieland} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        <div className="carousel-item">
-          <img src={SimsChar} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        <div className="carousel-item">
-          <img src={nintendo} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        <div className="carousel-item">
-          <img src={Sims} className="w-100" alt="Project 1" />
-          <div className="carousel-caption d-none d-md-block"></div>
-        </div>
-        {/* Add more carousel-items for more projects */}
+        ))}
       </div>
       <button
         className="carousel-control-prev"
