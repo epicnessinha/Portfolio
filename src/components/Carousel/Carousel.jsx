@@ -1,6 +1,5 @@
 import React from "react";
 import homepage from "../../assets/home.png";
-import Petland from "../../assets/Petlandsearch.png";
 import geekshubstore from "../../assets/geekshubstore.png";
 import haute from "../../assets/haute.png";
 import music from "../../assets/music.png";
