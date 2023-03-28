@@ -3,7 +3,6 @@ import homepage from "../../assets/home.png";
 import Petland from "../../assets/Petlandsearch.png";
 import geekshubstore from "../../assets/geekshubstore.png";
 import haute from "../../assets/haute.png";
-import movieland from "../../assets/movieland.png";
 import music from "../../assets/music.png";
 import nintendo from "../../assets/nintendo.png";
 import Sims from "../../assets/simsacademy.png";
@@ -22,14 +21,12 @@ const carouselImages = [
   { src: Sims, alt: "Project 10" },
   { src: SimsChar, alt: "Project 8" },
   { src: music, alt: "Project 5" },
-  { src: todolist, alt: "Project 6" },
-  { src: nintendo, alt: "Project 9" },
   { src: mycartel, alt: "Project 11" },
   { src: mycartelquest, alt: "Project 12" },
-  { src: movieland, alt: "Project 7" },
-  { src: Petland, alt: "Project 3" },
+  { src: todolist, alt: "Project 6" },
   { src: petlandlogin, alt: "Project 13" },
   { src: petlandprofile, alt: "Project 14" },
+  { src: nintendo, alt: "Project 9" },
   
 ];
 
