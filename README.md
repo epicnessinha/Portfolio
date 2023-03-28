@@ -1,8 +1,8 @@
+# Portfolio 
 
-#  ⚠️ Currently under development! ⚠️
+Personal portfolio with some of my projects and learning exercises during my journey to become a Frontend Developer.
 
-
-Personal portfolio - `https://vanessaferreira-portfolio.netlify.app/` 
+### https://vanessaferreira-portfolio.netlify.app/
 
 
 
