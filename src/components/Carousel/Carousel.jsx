@@ -1,6 +1,6 @@
 import React from "react";
 import homepage from "../../assets/home.png";
-import Petland from "../../assets/Petland.png";
+import Petland from "../../assets/Petlandsearch.png";
 import geekshubstore from "../../assets/geekshubstore.png";
 import haute from "../../assets/haute.png";
 import movieland from "../../assets/movieland.png";
@@ -12,9 +12,7 @@ import todolist from "../../assets/todolist.png";
 import mycartel from "../../assets/mycartel.png";
 import mycartelquest from "../../assets/mycartelquest.png"
 import petlandlogin from "../../assets/Petlandlogin.png";
-import petlandregister from "../../assets/Petlandregister.png"
 import petlandprofile from "../../assets/petlandprofile.png"
-import petlandadmn from "../../assets/petlandadmn.png"
 import "./Carousel.css";
 
 const carouselImages = [
@@ -32,8 +30,6 @@ const carouselImages = [
   { src: Petland, alt: "Project 3" },
   { src: petlandlogin, alt: "Project 13" },
   { src: petlandprofile, alt: "Project 14" },
-  { src: petlandadmn, alt: "Project 16" },
-  { src: petlandregister, alt: "Project 17" },
   
 ];
 
