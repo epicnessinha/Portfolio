@@ -1,6 +1,6 @@
 # Portfolio 
 
-Personal portfolio with some of my projects and learning exercises during my journey to become a Frontend Developer.
+Personal portfolio made with React JS, with some of my projects and learning exercises done during my journey to become a Frontend Developer.
 
 ### https://vanessaferreira-portfolio.netlify.app/
 
