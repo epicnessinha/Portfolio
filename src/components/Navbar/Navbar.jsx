@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div className="container">
+      <div className="container navbar-container">
         <Link className="navbar-brand" to="page-top" smooth={true} duration={1000}>
           Home
         </Link>
