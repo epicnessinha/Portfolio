@@ -11,12 +11,17 @@ import mycartel from "../../assets/mycartel.png";
 import mycartelquest from "../../assets/mycartelquest.png"
 import petlandlogin from "../../assets/Petlandlogin.png";
 import petlandprofile from "../../assets/petlandprofile.png"
+import githubflix from "../../assets/githubflix.jpeg"
+import githubflixedit from "../../assets/githubflixedit.jpeg"
 import "./Carousel.css";
 
 const carouselImages = [
   { src: homepage, alt: "Project 1" },
+  { src: githubflix, alt: "Project 15" },
+  { src: githubflixedit, alt: "Project 17" },
   { src: haute, alt: "Project 2" },
   { src: geekshubstore, alt: "Project 4" },
+  { src: nintendo, alt: "Project 9" },
   { src: Sims, alt: "Project 10" },
   { src: SimsChar, alt: "Project 8" },
   { src: music, alt: "Project 5" },
@@ -25,8 +30,7 @@ const carouselImages = [
   { src: todolist, alt: "Project 6" },
   { src: petlandlogin, alt: "Project 13" },
   { src: petlandprofile, alt: "Project 14" },
-  { src: nintendo, alt: "Project 9" },
-  
+   
 ];
 
 const Carousel = () => {
