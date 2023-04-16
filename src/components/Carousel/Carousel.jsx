@@ -9,8 +9,6 @@ import SimsChar from "../../assets/simschar.png";
 import todolist from "../../assets/todolist.png";
 import mycartel from "../../assets/mycartel.png";
 import mycartelquest from "../../assets/mycartelquest.png"
-import petlandlogin from "../../assets/Petlandlogin.png";
-import petlandprofile from "../../assets/petlandprofile.png"
 import githubflix from "../../assets/githubflix.jpeg"
 import githubflixedit from "../../assets/githubflixedit.jpeg"
 import "./Carousel.css";
@@ -28,9 +26,6 @@ const carouselImages = [
   { src: mycartel, alt: "Project 11" },
   { src: mycartelquest, alt: "Project 12" },
   { src: todolist, alt: "Project 6" },
-  { src: petlandlogin, alt: "Project 13" },
-  { src: petlandprofile, alt: "Project 14" },
-   
 ];
 
 const Carousel = () => {

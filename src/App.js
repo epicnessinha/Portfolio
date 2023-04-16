@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 import ContactCards from './components/ContactCards/ContactCards';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <About />
       <Projects />
+
       <ContactCards />
       <Footer />
     </div>
