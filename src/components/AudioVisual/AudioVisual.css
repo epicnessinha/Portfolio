@@ -1,0 +1,17 @@
+.videocontainer h2{
+    color: rgba(225, 242, 244, 0.833);
+    font-size: 4em;
+    margin-bottom: 40px;
+    font-family: "Real Ohio";
+    letter-spacing: 6px;
+    margin-top: 300px;
+}
+
+.audiovisualtext{
+    color: rgba(207, 228, 231, 0.732);
+        margin-bottom: 80px;
+        font-size: 1.3em !important;
+        line-height: 1.7;
+        text-align: center;
+        font-family: Optima;
+}
