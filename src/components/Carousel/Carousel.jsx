@@ -11,10 +11,20 @@ import mycartel from "../../assets/mycartel.png";
 import mycartelquest from "../../assets/mycartelquest.png"
 import githubflix from "../../assets/githubflix.jpeg"
 import githubflixedit from "../../assets/githubflixedit.jpeg"
+import homecv from "../../assets/Homepage.png"
+import experiencecv from "../../assets/Experience.png"
+import educationcv from "../../assets/Education.png"
+import contactscv from "../../assets/Contacts.png"
+import aboutmecv from "../../assets/About me.png"
 import "./Carousel.css";
 
 const carouselImages = [
-  { src: homepage, alt: "Project 1" },
+  { src: homecv, alt: "CV homepage" },
+  { src: educationcv, alt: "CV education" },
+  { src: contactscv, alt: "CV contacts" },
+  { src: experiencecv, alt: "CV experience" },
+  { src: aboutmecv, alt: "CV about me" },
+  { src: homepage, alt: "Github-discovery homepage" },
   { src: githubflix, alt: "Project 15" },
   { src: githubflixedit, alt: "Project 17" },
   { src: haute, alt: "Project 2" },

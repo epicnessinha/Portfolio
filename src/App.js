@@ -8,8 +8,8 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import ContactCards from './components/ContactCards/ContactCards';
-import AudioVisual from "./components/AudioVisual/AudioVisual";
-import Figma from './components/Figma/Figma';
+// import AudioVisual from "./components/AudioVisual/AudioVisual";
+// import Figma from './components/Figma/Figma';
 
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
       <Header />
       <About />
       <Projects />
-      <Figma />
-      <AudioVisual />
+      {/* <Figma />
+      <AudioVisual /> */}
       <ContactCards />
       <Footer />
     </div>
